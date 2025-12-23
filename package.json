@@ -1,0 +1,38 @@
+{
+  "name": "betexpress-backend",
+  "version": "1.0.0",
+  "description": "Backend API for BetExpress betting platform with Telegram login, USDT deposits, and live betting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "socket.io",
+    "telegram",
+    "web3",
+    "polygon",
+    "usdt",
+    "betting"
+  ],
+  "author": "TonNom <ton.email@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "socket.io": "^4.8.1",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
